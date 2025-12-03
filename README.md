@@ -10,9 +10,11 @@ npm run dev
 npm run dev - Inicia servidor
 
 npm run build - Compila TypeScript
+
 npm start - Inicia servidor compilado
 
-Banco de dados
+Banco de dados:
+
 sqlite3 biblioteca.db - Acessa banco SQLite
 
 # Endpoints

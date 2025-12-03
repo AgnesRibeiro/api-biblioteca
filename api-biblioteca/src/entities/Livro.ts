@@ -3,7 +3,7 @@ import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 @Entity('livros')
 export class Livro {
     @PrimaryGeneratedColumn()
-    id!: number;  // Remova a inicialização = 0
+    id!: number;  
 
     @Column({ length: 200 })
     titulo: string = '';
